@@ -1,0 +1,433 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2, h6{
+    color: #EE5A24;
+    background-color: white;
+    max-width: fit-content;
+}
+/* start landing page */
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+#landPage {
+    height: 100vh;
+    position: relative;
+}
+.bg-light{
+    background-color: #2E6666 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #EE5A24;
+}
+.carousel-inner .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2E6666;
+    width: 450px;
+    height: 300px;
+}
+.carousel-inner .myContent{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.myContent h2{
+    color: #EE5A24;
+    background-color: transparent;
+}
+p{
+    color: white;
+}
+.content button{
+    background-color: #EE5A24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.carousel-inner img{
+    height: 100vh;
+}
+.carousel-indicators .one,.carousel-indicators .two,.carousel-indicators .three{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #EE5A24;
+    opacity: 1;
+}
+.active{
+    background-color: white !important;
+}
+/* start section2 */
+.section2{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    position: relative;
+}
+.section2 .parag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family:serif;
+    z-index: 2;
+}
+.section2 .parag h2{
+    text-align: center;
+    background-color: transparent;
+}
+.section2 .parag p{
+    line-height: 16px;
+}
+.section2 .parag .asd::first-letter{
+    color: #EE5A24;
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+.section2 .right-part{
+    position: absolute;
+    right: 140px;
+    bottom: 40px;
+    z-index: 2;
+}
+.section2 .right-part h2{
+    display: inline;
+}
+.section2 .right-part p{
+    display: inline;
+}
+.overlay{
+    background-color:rgba(0, 0, 1, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+/* end section2 */
+/* start section3 */
+.section3{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+}
+.section3 .vision{
+    position: absolute;
+    top: 25%;
+}
+.section3 span{
+    font-size: 110px;
+    color: rgba(238, 90, 36,.8);
+    font-family: serif;
+}
+.section3 .member{
+    position: absolute;
+    top: 35%;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.section3 img{
+    width: 400px;
+    height: 265.67px;
+    top:-34px;
+    left: 40px;
+    position: absolute;
+}
+.section3 .orang{
+    width: 400px;
+    height: 265.67px;
+    background-color: #EE5A24;
+}
+/* end section 3 */
+/* start section 4 */
+.section4{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+}
+.section4 .vision{
+    position: absolute;
+    top: 44%;
+    background-color: rgb(255, 255, 255);
+}
+.section4 span ,.section5 span,.section6 span{
+    font-size: 110px;
+    color: rgba(238, 90, 36,.8);
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: serif;
+}
+.section4 .member{
+    position: absolute;
+    top: 50%;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.section4 img{
+    width: 400px;
+    height: 265.67px;
+    top: -36px;
+    right: 92px;
+    position: absolute;
+}
+.section4 .orang{
+    width: 400px;
+    height: 265.67px;
+    background-color: #EE5A24;
+    right: 50px;
+}
+
+/* end section 4 */
+/* start section 5 */
+.section5{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+}
+.section5 .leftSide h6{
+    margin-left: 55px;
+}
+.section5 .rightSide h2{
+    margin-left: 55px;
+}
+/* end section 5 */
+/* start section 6 */
+.section6{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+}
+.section6 .vision{
+    position: absolute;
+    left: 250px;
+    top: 44%;
+    background-color: rgb(255, 255, 255);
+}
+.section .member{
+    position: absolute;
+    top: 50%;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.section6 img{
+    width: 400px;
+    height: 265.67px;
+    top: -29px;
+    right: 79px;
+    position: absolute;
+}
+.section6 .orang{
+    width: 400px;
+    height: 265.67px;
+    background-color: #EE5A24;
+    right: 50px;
+    top:2%;
+}
+/* end section 6 */
+/* start section 7 */
+.section7{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+}
+.section7 .text2 p{
+    line-height: 15px;
+}
+/* end section 7 */
+/* start section 8 */
+.section8{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+.section8 h2{
+    background-color: transparent;
+    color: #B88E61;
+}
+.section8 .text span{
+    background-color: white;
+}
+.section8 .span-container{   
+    background-color: #EE5A24;
+}
+.section8 .my-logo{
+    width: 500px;
+    height: 500px;
+    border: 1 solid #fff;
+    
+}
+.section8 img{
+    position: absolute;
+    top: 122px;
+    left: 90px;
+}
+/* end section 8 */
+/* start section 9 */
+.section9{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    position: relative;
+    
+}
+.section9 .parag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family:serif;
+    z-index: 2;
+}
+.section9 .parag h2{
+    text-align: center;
+    background-color: transparent;
+}
+.section9 .parag .asd::first-letter{
+    color: #EE5A24;
+    font-size: 50px;
+    font-weight: 800;
+}
+.section9 .right-part{
+    position: absolute;
+    right: 140px;
+    bottom: 40px;
+    z-index: 2;
+}
+.section9 .right-part h2{
+    display: inline;
+}
+.section9 .right-part p{
+    display: inline;
+}
+
+/* end section 9 */
+/* start section 10 */
+.section10{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.section10 h1{
+    color: white;
+}
+.section10 .content2{
+    background-color: #EE5A24;
+    color: white;
+    height:487px;
+    border-radius: 10px;
+}
+.section10 p{
+    color: black;
+    text-align: center;
+}
+.section10 img{
+    border-radius: 10px;
+}
+/* end section 10 */
+/* start section 11 */
+.section11{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.section11 h1{
+    font-size: 60px;
+    color: #EE5A24;
+}
+.section11 span{
+    font-size: 70px;
+    color: #EE5A24;
+    font-family: serif;
+    top: 25%;
+    left: 10%;
+}
+.section11 .parag{
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+.section11 .icons .zoom, .section11 i{
+    color: white;
+}
+.section11 i{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* end section 11 */
+/* start section 12 */
+.section12{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.section12 h2{
+    background-color: transparent;
+}
+.section12 p{
+    line-height: 1.2;
+}
+.section12 #fname,.section12 #EMAIL,.section12 #PHONE-NUMBER, .section12 #CASE, .section12 #MESSAGE{
+    background-color: #8E9AA2;
+    color: white;
+}
+.section12 #submit{
+    color: white;
+    background-color: #EE5A24;
+}
+/* end section 12 */
+/* start section my logo */
+.my-logo .one,.my-logo .two{
+    height: 20px;
+    width: 100%;
+    color: #EE5A24;
+}
+
+/* end section my logo */
+/* start section 13 */
+.section13{
+    background-image: url(../images/abbe-sublett-nxZDMUQhN4o-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.section13 h5{
+    color: #EE5A24;
+    background-color: white;
+    max-width: fit-content;
+    margin-bottom: 30px;
+}
+.section13 .content1 p{
+    background-color: #EE5A24;
+    color: #fff;
+    max-width: fit-content;
+}
+.section13 .content i{
+    color: #EE5A24;
+}
+.section13 .content2 i{
+    font-size: 20px;
+    color: white;
+    background-color: #EE5A24;
+    border-radius: 10px;
+}
+.section13 .copyRight{
+    height: 40px;
+    width: 100%;
+    color: #EE5A24;
+    background-color: #EE5A24;
+}
+/* end section 13 */
